@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Chapter Prose Draft"
+  short_description: "Draft whole web-novel chapters from packs"
+  default_prompt: "Use $generate-chapter-prose-draft to draft a whole web-novel chapter from a chapter execution pack."

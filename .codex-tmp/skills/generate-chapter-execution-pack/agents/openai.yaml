@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Chapter Execution Pack"
+  short_description: "Prepare whole chapters for prose drafting"
+  default_prompt: "Use $generate-chapter-execution-pack to turn a chapter detail outline into a whole-chapter prose execution pack."

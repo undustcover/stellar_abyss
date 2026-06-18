@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Scene Execution Brief"
+  short_description: "Refine one difficult scene for prose"
+  default_prompt: "Use $generate-scene-execution-brief to refine one specified high-risk scene into a temporary prose execution brief."

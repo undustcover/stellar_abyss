@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "905fa498ab57372c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf6423c22ea6a3ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea980fe06476c432",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System_alpha/01_叙事系统/06_正文/P001/Public-C0002-第2章 一通电话.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Public-C0002-第2章 一通电话"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "882ff3919eeb1c8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9a6887ba2adac36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0a86cbf83c0c1bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4d1fc13c58e9e1b9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "cc609a039c66c780",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd0ab785deff814a",
+    "type": "split",
+    "children": [
+      {
+        "id": "42916bdb9c9b8d67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5517bb9b276d2a3d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "小说写作系统架构需求文档 V1.0.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "小说写作系统架构需求文档 V1.0 的反向链接列表"
+            }
+          },
+          {
+            "id": "7fc49e30bc778d0a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "小说写作系统架构需求文档 V1.0.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "小说写作系统架构需求文档 V1.0 的出链列表"
+            }
+          },
+          {
+            "id": "9fd00c442fc747a9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "699cd18fb829ab9c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "55edcd4ea5777bbc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "小说写作系统架构需求文档 V1.0.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "小说写作系统架构需求文档 V1.0 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "ea980fe06476c432",
+  "lastOpenFiles": [
+    "System_alpha/04_Skill系统/04_正文修订/SKL-REV-PROSE-DRAFT-REQ_正文修正稿初版需求.md",
+    "测试文本/正文测试/第一单元/skills第二章测试/03-正文草稿-第2章.md",
+    "测试文本/正文测试/第一单元/skills第二章测试/03-正文修改版（一）-第2章.md",
+    "System_alpha/01_叙事系统/06_正文/P001/Public-C0001-第1章 我那一无是处的堂哥.md",
+    "测试文本/正文测试/第一单元/skills第一章测试/04-darft-正文草稿-第1章.md",
+    "测试文本/正文测试/第一单元/skills第三章测试/05-正文修订稿-第3章 第二版.md",
+    "测试文本/正文测试/第一单元/第一章（废弃）/public第一章正文：《我那一无是处的堂哥》.md",
+    "测试文本/正文测试/第一单元/第一章（废弃）/draft第一章正文：《我那一无是处的堂哥》.md",
+    "测试文本/正文测试/第一单元/skills第三章测试/03-正文草稿-第3章 第二版.md",
+    "System_alpha/00_总控台/02_模板库/TPL-NAR-OUT-UNIT-V2_单元大纲模板.md",
+    "System_alpha/00_总控台/DEV-MASTER_系统开发总表.md",
+    "测试文本/正文测试/第一单元/skills第三章测试/06-正文修订报告-第3章 第二版.md",
+    "System_alpha/04_Skill系统/03_正文生成/SKL-REV-PROSE-DRAFT-REQ_正文修正稿初版需求.md",
+    "测试文本/正文测试/第一单元/skills第三章测试/03-正文草稿-第3章 第一版.md",
+    "todolist.md",
+    "测试文本/正文测试/第一单元/skills第三章测试/未命名.md",
+    "测试文本/正文测试/第一单元/P0修订版总结构.md",
+    "测试文本/正文测试/第一单元/skills第三章测试/01-章节细纲-第3章.md",
+    "测试文本/正文测试/第一单元/skills第三章测试/02-章节执行包-第3章.md",
+    "测试文本/正文测试/第一单元/skills第三章测试/04-正文测试评估报告-第3章.md",
+    "设计流程与方案/小说写作系统 V1.2 设计稿.md",
+    "测试文本/正文测试/第一单元/skills第三章测试",
+    "System_alpha/01_叙事系统/06_正文/P001/Public-C0002-第2章 一通电话.md",
+    "System_alpha/01_叙事系统/06_正文/P001/03-正文修改版（二）-第2章 1.md",
+    "测试文本/正文测试/第一单元/skills第二章测试/03-正文修改版（二）-第2章 1.md",
+    "测试文本/正文测试/第一单元/skills第二章测试/03-正文修改版（二）-第2章.md",
+    "System_alpha/02_设定系统/02_人物/P0_样板验证/陈艾艾-CHR-0003.md",
+    "测试文本/正文测试/第一单元/skills第二章测试/新建 文本文档.txt",
+    "测试文本/正文测试/第一单元/skills第二章测试",
+    "spec-kit-main (1).zip",
+    "System_alpha/01_叙事系统/06_正文/P001",
+    "System_alpha/01_叙事系统/06_正文/P001_C0001",
+    "System_alpha/01_叙事系统/06_正文/新建文件夹",
+    "System_alpha/04_Skill系统/03_正文生成/规则设计",
+    "System_alpha/04_Skill系统/03_正文生成/作者经验归纳",
+    "测试文本/正文测试/第一单元/skills第一章测试"
+  ]
+}

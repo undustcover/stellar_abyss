@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revise Draft Common Rules"
+  short_description: "Shared rules for draft-to-revision prose"
+  default_prompt: "Use -draft-common-rules to apply shared boundaries for turning a prose draft into a revised chapter."

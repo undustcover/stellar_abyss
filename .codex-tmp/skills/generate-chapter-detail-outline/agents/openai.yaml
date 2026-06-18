@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Chapter Detail Outline"
+  short_description: "Create flexible-scene web-novel outlines"
+  default_prompt: "Use $generate-chapter-detail-outline to turn a chapter plan into a web-novel detail outline with a flexible number of effective scenes."
