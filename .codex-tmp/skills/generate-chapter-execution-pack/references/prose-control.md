@@ -1,6 +1,6 @@
 # Prose Control
 
-Use these controls to make the execution pack useful for one-pass chapter drafting without writing the prose.
+Use these controls to make the execution pack useful for controlled key-fragment drafting and final whole-chapter assembly without writing the prose.
 
 ## Whole-Chapter Flow
 
@@ -29,6 +29,17 @@ Use these controls to make the execution pack useful for one-pass chapter drafti
 - Do not write full dialogue lines.
 - Mark what speakers cannot say because of cognition, motive, status, or secrecy.
 - For key scenes, provide at least one dialogue break point: interruption, answer-not-matching-question, after-the-fact repair, silence, topic dodge, or two people each pursuing their own urgent purpose.
+
+## Character Intent Coverage Routing
+
+- Mark relationship pressure that can change speech or behavior.
+- Mark character cognition boundaries: knows, does not know, misbelieves, suspects, and cannot judge.
+- Mark key behavior risks where a character may need a reason not to take a simpler action.
+- Mark key dialogue risks where a line direction could create different character meanings.
+- Mark decisions the model must not make for characters.
+- Record whether existing `type: character_intent_result` coverage is present, partial, missing, or requires `ASK_USER`.
+- Route uncovered key fragments back to `control-character-intent`.
+- Do not build full character intent tracks in the execution pack.
 
 ## Anti-AI Control
 
@@ -81,4 +92,4 @@ Do not expand high-risk scenes here. Recommend `generate-scene-execution-brief` 
 
 ## System-Source Boundary
 
-The execution pack is generated from the detail outline, narrative system, setting system, event database, and approved common rule files. It must not use external prose drafts, comparison reports, finished sample text, or non-system writing material as generation material.
+The execution pack is generated from the chapter creative control plan, chapter narrative expression contract, chapter detail outline, scene performance contract, character intent result when available, narrative system, setting system, event database, and approved common rule files. It must not use external prose drafts, comparison reports, finished sample text, or non-system writing material as generation material.

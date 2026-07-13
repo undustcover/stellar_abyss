@@ -147,8 +147,14 @@ confirmed 单元上下文包
 |人物卡模板|`00_总控台/02_模板库/TPL-CHR_人物卡模板.md`|人物卡固定字段与规则|
 |事件卡模板|`00_总控台/02_模板库/TPL-EVT_事件卡模板.md`|事件数据库固定字段与规则|
 |单元上下文包模板|`00_总控台/02_模板库/TPL-NAR-CTX-UNIT_单元上下文包模板.md`|单元级压缩资料模板|
-|单元大纲模板 V1|`00_总控台/02_模板库/TPL-NAR-OUT-UNIT_单元大纲模板.md`|旧版单元大纲模板|
+|单元大纲模板 V1（已归档）|`00_总控台/02_模板库/99_归档_过期模板/TPL-NAR-OUT-UNIT_单元大纲模板.md`|旧版单元大纲模板，已被 V2 替代|
 |单元大纲模板 V2|`00_总控台/02_模板库/TPL-NAR-OUT-UNIT-V2_单元大纲模板.md`|新版单元大纲模板|
+|卷级叙事表达契约模板|`00_总控台/02_模板库/TPL-NAR-VOLUME_卷级叙事表达契约.md`|占位，未完成，下一阶段迭代|
+|单元级叙事表达契约模板|`00_总控台/02_模板库/TPL-NAR-UNIT_单元级叙事表达契约.md`|占位，未完成，下一阶段迭代|
+|章节级叙事表达契约模板|`00_总控台/02_模板库/TPL-NAR-CHAPTER_章节级叙事表达契约.md`|章节级差异契约模板，供 V1.3 共创链路使用|
+|章节创作总控规划模板|`00_总控台/02_模板库/TPL-CHAPTER-CREATIVE-CONTROL_章节创作总控规划.md`|总-分-总链路的前置总规划，定义分工、引用、互补、冲突优先级和 token 边界|
+|场景演出契约模板|`00_总控台/02_模板库/TPL-SCENE-PERFORMANCE_场景演出契约.md`|约束文字表达、文风自然化、对白节奏和去 AI 化|
+|共创讨论记录模板|`00_总控台/02_模板库/TPL-COCREATE-LOG_共创讨论记录.md`|保存作者自然语言讨论、系统提炼和确认结果|
 
 ### 5.2 叙事系统
 
@@ -214,8 +220,10 @@ confirmed 单元上下文包
 |`.codex-tmp/skills/generate-chapter-detail-outline`|测试版章节细纲生成 skill|修改测试 skill 时优先改这里|
 |`.codex-tmp/skills/generate-chapter-execution-pack`|测试版章节执行包生成 skill|修改测试 skill 时优先改这里|
 |`.codex-tmp/skills/generate-scene-execution-brief`|测试版单场景执行单 skill|仅用于高风险单场景|
-|`.codex-tmp/skills/generate-chapter-prose-draft`|测试版正文草稿生成 skill|按分场景导演表生成正文，内置去 AI 感、文风一致性和对白幽默|
+|`.codex-tmp/skills/generate-chapter-prose-draft`|测试版正文草稿生成 skill|总导演式调用总控规划、章节契约、细纲、场景演出契约、执行包和人物意图结果生成正文|
 |`.codex-tmp/skills/revise-draft-common-rules`|测试版正文返修共同规则 skill|仅用于失败场景诊断和局部替换的边界参考|
+|`.codex-tmp/skills/co-create-narrative-expression`|测试版章节级叙事表达共创 skill|作者主动确认前不得落章节契约、章节创作总控规划和共创记录；用于 V1.3 P0C3 校准|
+|`.codex-tmp/skills/co-create-scene-performance-contract`|测试版场景演出契约共创 skill|共创文字表达、文风自然化、对白节奏和去 AI 化契约；不替代单场景执行单|
 |`.codex-tmp/skill-tests/generate-chapter-detail-outline`|细纲测试产物|不得回写为正式资料，除非人工确认|
 |`.codex-tmp/skill-tests/generate-chapter-execution-pack`|执行包测试产物|不得回写为正式资料，除非人工确认|
 |`.codex-tmp/skill-tests/generate-chapter-prose-draft`|正文草稿测试产物|不得作为系统事实来源|
@@ -242,6 +250,15 @@ confirmed 单元上下文包
 |done|第二章收口后迭代四个测试 skill|`.codex-tmp/skills/*`|同步认知差、场景轻重、承压点、主钩子、支持角色情绪弧线和高风险场面控制|
 |done|建立正文修正稿初版 skill 组|`.codex-tmp/skills/revise-draft-*`、`04_Skill系统/04_正文修订/SKL-REV-PROSE-DRAFT-REQ_正文修正稿初版需求.md`|初版 skill 本体留在测试区；正式系统只记录需求、边界和测试口径|
 |done|建立正文测试评估报告模板|`04_Skill系统/03_正文生成/规则设计/正文测试评估报告模板.md`|用于生成后对照合格正文参照稿，评估内核一致与表现独立|
+|done|建立章节级叙事表达契约模板|`00_总控台/02_模板库/TPL-NAR-CHAPTER_章节级叙事表达契约.md`|章节级只记录相对单元级的差异，不重复单元通用规则|
+|done|建立共创讨论记录模板|`00_总控台/02_模板库/TPL-COCREATE-LOG_共创讨论记录.md`|讨论阶段使用自然语言，最终结构化内容进入契约|
+|done|建立卷级、单元级叙事表达契约占位模板|`00_总控台/02_模板库/TPL-NAR-VOLUME_卷级叙事表达契约.md`、`TPL-NAR-UNIT_单元级叙事表达契约.md`|只标注未完成和下一阶段迭代，当前不开发|
+|done|建立章节级叙事表达共创测试 skill|`.codex-tmp/skills/co-create-narrative-expression`|先自然语言讨论、主动确认后再生成章节契约和共创记录；支持单元契约回流标记|
+|done|建立章节创作总控规划模板|`00_总控台/02_模板库/TPL-CHAPTER-CREATIVE-CONTROL_章节创作总控规划.md`|总-分-总链路前置总规划，只管分工、互补、引用、冲突优先级和 token 边界|
+|done|建立场景演出契约模板|`00_总控台/02_模板库/TPL-SCENE-PERFORMANCE_场景演出契约.md`|聚焦文字表达、文风自然化、对白节奏和去 AI 化，不承担剧情或人物意图|
+|done|新建场景演出契约共创测试 skill|`.codex-tmp/skills/co-create-scene-performance-contract`|独立于单场景执行单，作者确认后输出场景演出契约|
+|done|改造章节执行包为轻量调度索引|`.codex-tmp/skills/generate-chapter-execution-pack`|执行包不再复述全部上游，只保留产物索引、场景调度、风险路由和人物意图接口|
+|done|改造正文草稿生成为总导演式调用|`.codex-tmp/skills/generate-chapter-prose-draft`|正文生成直接协调总控规划、章节契约、细纲、场景演出契约、执行包和人物意图结果|
 |done|建立第一章自下而上测试执行包|`.codex-tmp/skill-tests/generate-chapter-execution-pack/PACK-P00-C01_我那一无是处的堂哥_自下而上测试执行包.md`|不读取合格正文参照稿，只使用系统资料和已批准规则|
 |done|生成第一章自动生成测试正文草稿|`.codex-tmp/skill-tests/generate-chapter-prose-draft/DRAFT-P00-C01_我那一无是处的堂哥_自动生成测试正文草稿.md`|生成阶段不读取参照稿|
 |done|取消三个独立正文修订 skill|`.codex-tmp/skills/revise-draft-de-ai`、`.codex-tmp/skills/revise-draft-style-calibration`、`.codex-tmp/skills/revise-draft-dialogue-humor`|去 AI 感、文风一致性、对白幽默并入前三个生成 skill 的分场景导演|

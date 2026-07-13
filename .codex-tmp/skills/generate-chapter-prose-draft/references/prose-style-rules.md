@@ -2,6 +2,8 @@
 
 Use these rules while drafting chapter prose.
 
+Read `director-prose-quality-rules.md` together with this file. This file gives broad drafting behavior; `director-prose-quality-rules.md` holds reusable author-style and anti-AI controls extracted from prior tests. Scene performance contracts should only add chapter-specific differences.
+
 ## Write the Scene, Not the Outline
 
 - Start from a concrete present-moment action, object, voice, pressure, or consequence.
@@ -13,9 +15,11 @@ Use these rules while drafting chapter prose.
 
 - Build a `生活压力链`: work, family, money, procedure, objects, messages, meals, doors, forms, calls, or relationship pressure should make the chapter feel lived-in.
 - Build a `误会语义链`: important clues should have a surface meaning the viewpoint can misread and a true meaning that remains hidden.
-- Build a `人物情绪链`: dialogue is driven first by emotion, then purpose, then logic.
+- Use the `人物情绪入口/出口索引`: dialogue is driven first by emotion, then purpose, then logic, while fragment-level language intent stays with `control-character-intent`.
 - Build a `反杀材料链`: light early actions or objects can later become evidence, consequence, or emotional reversal, but do not label them as such in prose.
-- Follow the execution pack's `分场景导演表`: each scene should know what reader expectation, misread, pressure, laugh, reveal, or hook it is carrying before prose is written.
+- Follow the chapter creative control plan and execution pack dispatch: each scene should know what reader expectation, misread, pressure, laugh, reveal, or hook it is carrying before prose is written.
+- Follow `director-prose-quality-rules.md` for reusable sentence rhythm, dialogue naturalness, narration boundaries, and anti-AI controls.
+- Follow the scene performance contract for chapter-specific or key-scene differences from those reusable controls.
 - Follow scene grades: A scenes get full visible pressure; B scenes bridge state; C scenes compress information through conflict or procedure.
 - Generate concrete joke landings, dialogue, objects, and ending lines during drafting. Do not import them from external prose drafts, comparison reports, finished sample text, or other non-system writing material.
 
@@ -81,7 +85,7 @@ Revision is not just adding or cutting. It is choosing the few pressures that sh
 
 ## System-Source Boundary
 
-- The draft is generated from the execution pack, narrative system, setting system, event database, and approved common rule files.
+- The draft is generated from the creative control plan, narrative expression contract, detail outline, scene performance contract, execution pack, character intent result, narrative system, setting system, event database, and approved common rule files.
 - Do not reuse finished jokes, finished dialogue, punchlines, paragraph order, ending lines, or signature expressions from non-system writing material.
 - If the execution pack contains a structural phrase, transform it into new in-scene action or dialogue instead of copying it as prose.
 - Approved common rule files may guide rhythm, pressure, misread, and anti-AI control, but non-system finished material must stay out of the draft.
@@ -93,11 +97,11 @@ Revision is not just adding or cutting. It is choosing the few pressures that sh
 - Spend words on conflict, turn, reveal, emotional pressure, and ending hook.
 - Let transitions carry state from the previous scene rather than restarting the chapter.
 - Compress jokes before compressing pressure. Do not skip a high-pressure confrontation if it is where a character's face, money, object, procedure, or relationship changes.
-- Use the execution pack's protected pressure points as minimum visible beats. If a scene must be short, keep the pressure point and cut the decorative cleverness.
+- Use the execution pack's protected pressure points and risk routing as minimum visible beats. If a scene must be short, keep the pressure point and cut the decorative cleverness.
 
 ## Ending
 
-- Land the execution pack's chapter ending state.
+- Land the chapter detail outline's ending state and the execution pack's main-hook routing.
 - Preserve the next-chapter hook without explaining future plot.
 - Identify one main ending hook. Comic afterbeats, emotional reflections, and character jokes may remain only if they do not steal attention from that hook.
 - The final reader impression should point to the main hook first. If a lighter afterbeat is funnier than the hook, shorten it or move it before the hook.

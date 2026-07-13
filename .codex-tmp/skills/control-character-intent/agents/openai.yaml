@@ -1,0 +1,3 @@
+display_name: Character Intent Control
+short_description: Align character language and behavior intent before prose drafting.
+default_prompt: "Build character intent tracks for the next key prose fragment, decide CONTINUE or ASK_USER, and prepare any chapter runtime-state updates."

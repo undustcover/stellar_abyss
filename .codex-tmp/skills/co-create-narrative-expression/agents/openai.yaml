@@ -1,0 +1,4 @@
+interface:
+  display_name: "Co-create Narrative Expression"
+  short_description: "Run author-led narrative expression workshops"
+  default_prompt: "Use $co-create-narrative-expression to discuss and confirm a chapter narrative expression contract before creating files."
