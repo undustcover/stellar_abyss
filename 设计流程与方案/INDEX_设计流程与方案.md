@@ -2,10 +2,10 @@
 type: index
 system: system_design
 status: active
-version: "1.0"
+version: "1.1"
 title: 设计流程与方案总索引
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-07-16
 tags:
   - index
   - architecture
@@ -34,6 +34,8 @@ aliases:
 |设计草稿到正文的作者审美链|[[设计流程与方案/共创机制/作者审美解释与盲写正文链路 V0.1|作者审美解释与盲写正文链路 V0.1]]|已进入持续开发；包含案例学习、审美诊断、方向裁决和参照隔离生成|
 |继续当前作者审美校准工作|[[设计流程与方案/共创机制/CURRENT_作者审美链工作状态|作者审美链当前工作状态]]|跨对话续接入口；只读取最小资料即可继续当前阶段|
 |查阅正式作者审美判断|[[System_alpha/04_Skill系统/03_正文生成/作者审美决策库/LIB-AESTHETIC-P0_作者审美决策库|P0 作者审美决策库]]|A1—A8 已获作者确认并正式入库|
+|执行 Draft→Public 表达重构|`.codex-tmp/skills/reconstruct-draft-to-public/SKILL.md`|独立执行冻结、片段审计、L0—L4 重构和三类门禁|
+|查阅正式表达重构方法|[[System_alpha/04_Skill系统/03_正文生成/表达重构方法论库/LIB-EXPRESSION-P0_表达重构方法论库|P0 表达重构方法论库]]|十条作者确认边界的跨场景 L2—L4 方法|
 |实施人物意图控制|[[设计流程与方案/意图控制器/实施/意图控制系统实施总览|意图控制系统实施总览]]|意图控制器开发入口、阶段状态与任务顺序|
 |确认意图控制文档是否一致|[[设计流程与方案/意图控制器/实施/文档对齐检查报告|文档对齐检查报告]]|检查职责、交互、状态和实施缺口|
 
@@ -131,6 +133,8 @@ flowchart TD
 - [[设计流程与方案/共创机制/CURRENT_作者审美链工作状态|作者审美链当前工作状态]]：新对话续接和下一步唯一任务入口。
 - [[System_alpha/04_Skill系统/03_正文生成/作者审美决策库/LIB-AESTHETIC-P0_作者审美决策库|P0 作者审美决策库]]：保存作者确认后的正式抽象判断。
 - [[System_alpha/04_Skill系统/03_正文生成/作者审美决策库/README_作者审美决策库|作者审美决策库运行说明]]：长期迭代、版本和隔离规则。
+- [[System_alpha/04_Skill系统/03_正文生成/表达重构方法论库/LIB-EXPRESSION-P0_表达重构方法论库|P0 表达重构方法论库]]：将审美判断转换为 L2—L4 执行动作。
+- `.codex-tmp/skills/reconstruct-draft-to-public/SKILL.md`：Draft→Public 专用执行 Skill。
 
 配套模板：
 

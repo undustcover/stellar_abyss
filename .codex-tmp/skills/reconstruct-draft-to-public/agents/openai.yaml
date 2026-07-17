@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft to Public Reconstruction"
+  short_description: "Reconstruct approved drafts into author-aligned public prose"
+  default_prompt: "Use $reconstruct-draft-to-public to reconstruct an approved prose draft by functional fragment while preserving frozen story facts."
