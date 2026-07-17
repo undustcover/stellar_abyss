@@ -10,6 +10,7 @@ Use it while drafting or revising prose. Do not copy this whole file into a scen
 - `co-create-scene-performance-contract` owns only local performance differences: this chapter's baseline, key-scene texture, chapter-specific prohibited wording, and special dialogue/narration boundaries.
 - If a rule applies across chapters, keep it here or in a higher author-style reference. Do not force every chapter contract to restate it.
 - If a rule changes plot, reader information, or character motive, route it back to the chapter contract, detail outline, or `control-character-intent`.
+- Public-confirmed anti-AI prevention is mapped through `public-derived-anti-ai-prevention.md`. The formal expression library remains the authority; this file executes its Draft-stage prevention subset.
 
 ## Reusable Anti-AI Controls
 
@@ -20,6 +21,17 @@ Use it while drafting or revising prose. Do not copy this whole file into a scen
 - Avoid abstract metaphor as the default way to make prose feel literary. Prefer concrete work experience, family reaction, object reaction, procedure, money, service, or relationship pressure.
 - Avoid consecutive parallelism, polished aphorisms, and neat rhetorical symmetry.
 - Keep the logic under the scene. Let characters notice, suffer, evade, misread, or act before the prose explains.
+
+## Limited POV Binding And Character-Specific Association
+
+- Do not use narration to expose the whole author design by listing what a character did, did not do, and what it means. Write visible conduct first; let action, address, position, object handoff, answer target, and consequence carry relationship meaning.
+- In a key close-POV scene, build a minimal reader-reception chain: scene stimulus, selective POV attention, one effective POV participation beat, optional character-specific association or judgment, then return to action or dialogue.
+- An effective participation beat may be a bodily response, short line, selective attention, immediate decision, or internal judgment that changes how readers receive the scene. It is not a quota and is not required after every action.
+- Generate metaphors, descriptions, jokes, and internal reactions from confirmed character work, life pressure, desire, shame, fear, habitual misreading, vocabulary, or relationship experience, then connect them to a current object, action, procedure, or relationship pressure.
+- Apply the character-swap test: if another major character can carry the line unchanged, the association is not character-specific enough.
+- Apply the scene-link test: if the association works equally well outside the current scene, reconnect it to current material or remove it.
+- Never invent occupation history, family history, or lived experience merely to pass the character-swap test. If no confirmed source exists, use an action response or direct scene fact.
+- Do not turn POV binding into repeated “saw/thought/felt” markers, continuous stand-up commentary, or a psychology insert after every action.
 
 ## Dialogue Naturalness
 
@@ -61,6 +73,10 @@ Before or during drafting, check:
 |Scene pressure|What concrete pressure moves this scene: action, object, money, procedure, family, relationship, information mismatch, or consequence?|
 |Dialogue causality|Does every broken line come from pressure rather than random fragmentation?|
 |Explanation leak|Is the prose explaining motive or theme where action/dialogue/object can carry it?|
+|Complete-design narration|Does one sentence explain what happened, what did not happen, and what the author wants it to mean?|
+|POV participation|In each key close-POV scene, does the viewpoint materially shape reader reception instead of only seeing or hearing?|
+|Character-swap test|Could another major character carry this metaphor, description, joke, or internal reaction unchanged?|
+|Scene-link test|Does the association share a concrete dimension with the current object, action, procedure, or relationship pressure?|
 |AI sentence shape|Are there polished summaries, symmetrical frames, paragraph slogans, or rhetorical parallelism?|
 |Misread scale|Is the misread tactful and double-coded rather than bluntly repeated?|
 |Object economy|Are objects used as action or pressure, not inventory?|

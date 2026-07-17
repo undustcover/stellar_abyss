@@ -2,11 +2,11 @@
 id: ITERATION-P00-C03-PUBLIC-01
 type: draft_to_public_module_iteration
 system: author_aesthetic_public_reconstruction_test
-status: implementation_complete
-version: "1.1"
+status: system_public_frozen
+version: "1.6"
 title: 第三章 Draft→Public 模块迭代记录
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-17
 unit: P00
 chapter: C03
 source_task: TASK-P00-C03-DRAFT-TO-PUBLIC-01
@@ -148,3 +148,152 @@ T4 最终状态：`passed`
 |是否回写 CURRENT／INDEX|CURRENT yes；INDEX no|
 
 T5.1 未发现知识缺失、Skill 漏执行或模板记录缺口，因此不进行无证据系统迭代。
+
+## 六、T5.1 作者复核与修订
+
+F04 首版虽通过既有门禁，但作者复核确认其与全章轻喜底色不符：陈艾艾过于急躁，马木成为严肃问题解决机器，陈科缺少“不知被骗而认真自洽”的滑稽与尴尬。
+
+处理结果：
+
+- 撤销 F04 V1.0 的 `passed`；
+- 在相同事实与边界下重新生成 V1.1；
+- 第一基调调整为生活化轻喜；
+- 陈科改为服软解释并持续自洽；
+- 马木改用现实生活例子作幽默对照；
+- 陈艾艾改为冷硬、短句、少动作；
+- 作者已确认修订版通过；
+- F04 三类门禁最终状态均为 `pass`。
+
+## 七、T5.2 F05—F06 冒烟测试
+
+|字段|内容|
+|---|---|
+|测试产物|`12-S4工作人员回拉表达重构测试.md`|
+|修改等级|L4|
+|主方法|EXPRESSION-P0-010|
+|辅助方法|EXPRESSION-P0-006、011（作者校准后由 003 调整）|
+|第一基调|生活化轻喜|
+|次级读感|正常服务产生的低危不安|
+|事实与边界门禁|pass|
+|修改深度门禁|pass|
+|作者审美门禁|pass；作者确认|
+|当前状态|passed|
+
+## 八、T5.2 去 AI 化作者校准与系统回写
+
+作者对 F05—F06 连续确认三类退化：
+
+1. 旁白同时说明人物做了什么、没做什么和作者意图，现场动作失去证明作用；
+2. 马雯雯作为限知 POV 只有看见过程，缺少能绑定读者视界的即时参与；
+3. “忘东西有面子／顺手铺椅子”等联想可以换给任何人物，不来自马雯雯的社畜经验，也未紧扣当前服务场景。
+
+主归因模块：`MOD-KB-EXPRESSION`。
+
+系统修改：
+
+- 新增正式方法 `EXPRESSION-P0-011 限知 POV 参与链与人物专属联想`；
+- 将方法写入 Public Skill 常见问题路由；
+- 在作者审美门禁新增说明式旁白、POV 参与、换人测试和场景关联检查；
+- F05—F06 的辅助方法由 `003、006` 调整为 `006、011`；
+- 不修改 Draft 生成流程，该链路由作者另行处理。
+
+F05—F06 正文 V1.3 已完成三步校准并获作者确认；三类门禁最终状态均为 `pass`。
+
+## 九、Public 去 AI 化回流 Draft 预防
+
+作者确认 Public 去 AI 化方法需要进入 Draft 生成流程，并要求建立持续同步机制。
+
+架构判断：`可行，采用单一权威源 + Draft 预防映射`。
+
+已实施：
+
+- 正式方法 `EXPRESSION-P0-011` 增加 `方法版本 1.0` 与 `Draft预防映射: yes`；
+- 新建 Draft 映射 `public-derived-anti-ai-prevention.md`；
+- Draft Skill 每次生成前必须比较 `方法 ID@版本`；
+- 版本失配标记 `SYNC-DRAFT-DEAI-001`，不得静默继续；
+- 同步 Draft 导演层规则、质量门禁、正式交付模板和本地模板镜像；
+- Draft 生成备注新增映射版本、同步状态、说明式旁白、POV 参与、换人测试与场景关联字段；
+- 正式方法库 README 和 CHANGELOG 增加跨阶段同步协议；
+- 设计总索引增加映射入口。
+
+职责边界：Draft 只执行预防版，不搬入 Public 的 L3／L4 事后重构；同步只迁移抽象规则，不读取或复用 Public 成品正文。
+
+下一复验：使用下一次干净 Draft 生成或专门 Draft 冒烟测试，验证同类问题是否在首次生成时被拦截。
+
+## 十、T6 问题迭代与原片段复验汇总
+
+### 10.1 F05—F06 问题记录
+
+|字段|内容|
+|---|---|
+|问题 ID|ISSUE-C03-PUBLIC-006|
+|发现阶段|T5.2|
+|片段 ID|F05—F06|
+|问题表现|说明式旁白讲完动作、未发生动作和作者意图；马雯雯只充当摄像机；通用比喻和内心判断可任意换人|
+|问题层级|旁白／POV／人物声音／比喻／读者接收|
+|修改等级|L4 内局部复验|
+|主归因模块|MOD-KB-EXPRESSION|
+|次要影响模块|MOD-SKILL-PUBLIC；MOD-SKILL-DRAFT-QUALITY；MOD-SKILL-DRAFT-CHECK|
+|是否需要作者介入|yes；生成后作者审美校准，不触发 L5|
+|修改内容|新增 EXPRESSION-P0-011；同步 Public Skill 门禁；将抽象预防规则回流 Draft Skill|
+|复验对象|F05—F06 原失败表达|
+|复验版本|V1.3|
+|复验结果|pass；作者确认|
+|是否回写 CURRENT／INDEX|yes／yes|
+
+### 10.2 两组原片段复验
+
+|片段|最终版本|事实与边界|作者审美|修改深度|作者确认|
+|---|---|---|---|---|---|
+|F04|`11-S3盘问片段表达重构测试.md` V1.1 正文|pass|pass|pass|yes|
+|F05—F06|`12-S4工作人员回拉表达重构测试.md` V1.3 正文|pass|pass|pass|yes|
+
+### 10.3 模块同步核对
+
+|模块|本轮结果|状态|
+|---|---|---|
+|MOD-KB-EXPRESSION|新增 `EXPRESSION-P0-011@1.0`，含识别信号、步骤、边界、换人测试和场景关联检查|synced|
+|MOD-SKILL-PUBLIC|增加 011 路由、说明式旁白门禁、POV 参与门禁和换人测试|synced|
+|MOD-SKILL-DRAFT-QUALITY|加入首次生成预防规则|synced|
+|MOD-SKILL-DRAFT-CHECK|加入说明式旁白、POV 参与、换人和场景关联检查|synced|
+|Draft 预防映射|建立 `EXPRESSION-P0-011@1.0` 版本同步和 `SYNC-DRAFT-DEAI-001` 失配协议|current|
+|正式 Draft 模板／本地镜像|增加映射版本、同步状态和风险字段|synced|
+|表达库 CHANGELOG／README|增加条目记录与 Public→Draft 同步协议|synced|
+|设计 INDEX|增加 Draft 预防映射入口|synced|
+|CURRENT|阶段和下一步同步|synced|
+
+### 10.4 T6 结论
+
+- F04 与 F05—F06 均已使用相同冻结事实回原片段复验；
+- 两组冒烟测试三类门禁全部通过并获作者确认；
+- 失败问题均有唯一主归因模块；
+- 新方法、执行门禁、Draft 预防、版本同步、CHANGELOG、INDEX 与 CURRENT 均已闭环；
+- T6 状态：`passed`；
+- 下一步：进入 T7，生成新的整章 `14-System Public V1.1-第3章.md` 与完整测试记录；不得覆盖失败 V1。
+
+## 十一、T7 整章生成与装配复核
+
+### 11.1 产物
+
+- `14-System Public V1.1-第3章.md`
+- `15-Draft-to-Public测试记录-第3章.md`
+
+### 11.2 装配结果
+
+|范围|处理|结果|
+|---|---|---|
+|F01—F03|按 L2—L4 重写开场、父女冲突和风险信息入口|pass|
+|F04|装配作者确认的 V1.1 正文|pass；逐字符一致|
+|F05—F06|装配作者确认的 V1.3 正文|pass；逐字符一致|
+|F07—F09|压缩配角、用行动兑现现实方案、重构章末认知运动|pass|
+|全章接口|统一轻喜基调、人物声音、POV、节奏与片段衔接|pass|
+
+### 11.3 三类门禁
+
+|门禁|结果|
+|---|---|
+|事实与边界|pass|
+|作者审美|pass|
+|修改深度|pass|
+
+T7 未发现需要回写正式库的新问题，也未触发 ASK-A—ASK-H。System Public V1.1 状态为 `system_public_frozen`；下一步进入 T8 作者 V2 与知识回灌。

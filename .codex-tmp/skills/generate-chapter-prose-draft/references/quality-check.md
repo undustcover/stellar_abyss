@@ -47,6 +47,10 @@ System_alpha/00_总控台/02_模板库/TPL-CHAPTER-PROSE-DRAFT_正文草稿交�
    - No unresolved `ASK_USER` was ignored.
 8. Anti-AI pass
    - Remove over-explanation, polished but nonfunctional metaphor, authorial diagnosis, and summary-like scene expansion.
+   - Narration does not explain the complete design by combining what a character did, did not do, and what it means when visible conduct can carry the relationship meaning.
+   - Each key close-POV scene gives the viewpoint at least one effective participation beat that shapes reader reception; fast transitions are exempt and no per-paragraph quota is used.
+   - Metaphors, descriptions, jokes, and internal reactions pass the character-swap test and remain connected to current scene material.
+   - POV binding does not become repeated “saw/thought/felt” markers, continuous commentary, invented character history, or psychology after every action.
    - Keep information release inside conflict, action, pressure, misread signal, object trace, or consequence.
    - Summary humor was converted into scene material, not replaced by prettier narration.
    - Blunt or low-grade misread wording was softened into double-coded, tactful misunderstanding.
@@ -75,6 +79,10 @@ System_alpha/00_总控台/02_模板库/TPL-CHAPTER-PROSE-DRAFT_正文草稿交�
 |Dialogue explains author intent instead of character intent|Rebuild the fragment from the approved language intent track.|
 |Behavior only serves plot|Return to behavior intent control or rewrite with motive, pressure, and consequence.|
 |The draft sounds AI-like|Run a second pass: hide logic under action, roughen over-polished lines, break clean Q&A, and replace explanation with pressure or consequence.|
+|Narration exposes the complete author design|Keep visible facts; remove negative-action and meaning explanations; let conduct, object handling, address, position, or consequence carry the design.|
+|The POV only acts as a camera in a key scene|Add one effective participation beat from confirmed character knowledge, then return to action or dialogue.|
+|A metaphor or internal reaction can be swapped between characters|Regenerate from confirmed character experience and current scene material, or remove it.|
+|The Public-derived prevention mapping is stale|Report `SYNC-DRAFT-DEAI-001`; synchronize the mapped method before drafting, or stop and ask the author if system maintenance is not authorized.|
 |The draft resembles non-system finished prose too closely|Replace finished jokes, dialogue, paragraph order, or ending lines with newly generated material from the pack's mechanisms, then mark the risk in `生成备注`.|
 |The draft used external comparison material|Mark the test as contaminated in `生成备注` and regenerate from clean system inputs.|
 |A strong character wins every exchange|Cut or roughen clever lines; move force into action, interruption, failed repair, or another character's pressure.|

@@ -66,6 +66,7 @@ Common routing:
 |Formulaic metaphor|EXPRESSION-P0-008|
 |Paragraph organization failure|EXPRESSION-P0-009|
 |Whole-fragment expression failure|EXPRESSION-P0-010|
+|Explanatory omniscient narration, camera-only POV, or interchangeable associations|EXPRESSION-P0-011|
 
 ## 5. L3 Procedure
 
@@ -76,6 +77,8 @@ Common routing:
 5. Reassemble trigger, reaction, relationship change, information consequence, and landing.
 6. Restore necessary transitions.
 7. Compare facts and expression skeleton, not sentence polish.
+
+For close limited POV scenes, also verify the reader-reception chain: stimulus, POV perception, POV participation, character-specific association or judgment, and return to the scene. Do not add psychology after every action.
 
 ## 6. L4 Reconstruction Card
 
@@ -101,6 +104,8 @@ Then:
 6. choose one landing;
 7. write from blank space;
 8. reopen the Draft only for fact verification.
+
+When narration or POV is part of the failure, apply the character-swap test to metaphors and internal reactions. If another major character can carry the line unchanged, reconstruct it from the POV character's own work, life pressure, desire, habitual misreading, and current scene material.
 
 ## 7. Assembly
 

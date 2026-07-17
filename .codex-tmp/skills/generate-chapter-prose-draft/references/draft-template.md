@@ -37,7 +37,7 @@ tags:
 |接口项|规则|
 |---|---|
 |模板职责|承载最终小说正文、上游来源索引和生成备注；正文生成 Skill 作为总导演统一调用各产物|
-|必须读取|章节创作总控规划；章节级叙事表达契约；章节细纲；场景演出契约；章节执行包；人物意图结果；章节运行态；导演层可复用文本质量规则|
+|必须读取|章节创作总控规划；章节级叙事表达契约；章节细纲；场景演出契约；章节执行包；人物意图结果；章节运行态；导演层可复用文本质量规则；Public 去 AI 化方法的 Draft 预防映射|
 |只可引用|已确认上游产物；当前生成片段所需资料；总控规划中的冲突优先级和 ASK_USER 规则|
 |禁止复述|任何上游模板表格；过程标签；意图轨道；分析说明；章节执行包结构短语；上游产物摘要|
 |输出给|正文文件；正文评估；局部返修；必要时回流到共创或人物意图控制|
@@ -62,6 +62,8 @@ tags:
 |章节执行包||
 |人物意图结果||
 |章节运行态||
+|Public 去 AI 预防映射|方法 ID@版本|
+|去 AI 预防映射同步状态|current / stale|
 |是否只使用系统资料生成|是 / 否 / 存在污染风险|
 |非系统资料污染风险||
 
@@ -90,6 +92,10 @@ tags:
 |人物同质化风险||
 |为什么不采取更简单行动检查||
 |疑似AI感句子||
+|说明式完整设计旁白风险||
+|关键场景 POV 参与风险||
+|人物联想换人测试风险||
+|人物联想场景关联风险||
 |解释过度风险||
 |叙事说明书化风险||
 |疑似硬梗||
@@ -127,4 +133,4 @@ If no risk is found for a row, write `未发现明显风险`. Do not invent prob
 
 ## Source Notes Rule
 
-For `是否只使用系统资料生成`, write one of: `是`, `否`, or `存在污染风险`. For `非系统资料污染风险`, explain whether any finished joke, dialogue, punchline, paragraph order, ending line, or signature expression may come from external prose drafts, comparison reports, or other non-system writing material. For `人物意图结果输入`, state whether prose was generated from a `character_intent_result` with `CONTINUE` or `RESUME`, or whether the result was `ASK_USER`/missing. For `章节运行态更新情况`, state whether confirmed intent rules were written or should be written to runtime state. For `总导演整合能力评估`, state whether the draft successfully coordinated the creative control plan, narrative expression contract, detail outline, scene performance contract, execution pack, character intent result, director prose-quality rules, and approved system inputs.
+For `是否只使用系统资料生成`, write one of: `是`, `否`, or `存在污染风险`. For `非系统资料污染风险`, explain whether any finished joke, dialogue, punchline, paragraph order, ending line, or signature expression may come from external prose drafts, comparison reports, or other non-system writing material. For `人物意图结果输入`, state whether prose was generated from a `character_intent_result` with `CONTINUE` or `RESUME`, or whether the result was `ASK_USER`/missing. For `Public 去 AI 预防映射`, record every mapped `method ID@version`; for `去 AI 预防映射同步状态`, record `current` or `stale` and never silently generate when stale. For `章节运行态更新情况`, state whether confirmed intent rules were written or should be written to runtime state. For `总导演整合能力评估`, state whether the draft successfully coordinated the creative control plan, narrative expression contract, detail outline, scene performance contract, execution pack, character intent result, director prose-quality rules, Public-derived prevention mapping, and approved system inputs.

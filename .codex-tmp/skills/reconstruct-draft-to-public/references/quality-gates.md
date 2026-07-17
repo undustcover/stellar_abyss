@@ -18,8 +18,11 @@ Any failure stops prose generation. Do not patch it with invention.
 - Information enters through characters, actions, objects, relations, or purposeful narration.
 - Dialogue is not a cooperative information checklist.
 - Narration adds value instead of repeating visible conclusions.
+- Narration does not explain both what a character did and did not do in order to expose the author's full design; visible conduct must carry the relationship meaning when possible.
 - Character qualities are supported by choices and consequences.
 - Formulaic metaphors have a real experiential anchor or are removed.
+- In a key close-POV scene, the POV character does more than register events: at least one reaction, selective attention, short line, or internal judgment materially shapes reader reception.
+- Metaphors, descriptions, and internal reactions pass the character-swap test and remain tied to current scene material; interchangeable cleverness fails.
 - The primary tone is explicit; secondary tones do not receive equal mechanical weight.
 - The text stops after sufficient material and preserves reader participation.
 - Supporting jokes or characters do not steal the main scene function.
@@ -43,6 +46,7 @@ Any failure stops prose generation. Do not patch it with invention.
 - Character purposes change dialogue behavior.
 - At least one original explanatory conclusion is carried by the scene.
 - Every frozen item passes.
+- When POV or narration was a target problem, the new fragment contains a complete reader-reception chain without repetitive “saw/thought/felt” markers or invented character history.
 
 ## Failure Rules
 

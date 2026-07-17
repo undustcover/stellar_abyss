@@ -2,10 +2,10 @@
 type: system_readme
 system: expression_reconstruction_method_library
 status: active
-version: "1.0"
+version: "1.1"
 title: 表达重构方法论库运行说明
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-17
 tags:
   - expression-reconstruction
   - prose-generation
@@ -51,3 +51,21 @@ tags:
 ## 五、等级
 
 当前条目均为 `L3 作者确认方法`。L3 只表示边界获得作者确认，不表示无条件调用。
+
+当前共十一条正式方法。`EXPRESSION-P0-011` 专门处理说明式旁白、限知 POV 参与感不足和可任意换人的通用联想；它与 `003` 的现场证据、`008` 的现实锚点互补，但额外要求读者接收必须经过 POV 人物，并通过换人测试与场景关联检查。
+
+## 六、Public → Draft 跨阶段同步
+
+正式方法如具有 `Draft预防映射: yes`，其新增或边界变化必须同时执行：
+
+1. 提升该条目的 `方法版本`；
+2. 更新 Draft 预防映射中的 `方法 ID@方法版本`；
+3. 检查 Draft 导演层规则、质量门禁、Skill 工作流和交付备注字段；
+4. 在变更日志中记录 Draft 是否已同步；
+5. 使用干净系统输入进行 Draft 复验，不回读 Public 成品句。
+
+对应映射：
+
+`D:\Career\stellar abyss\.codex-tmp\skills\generate-chapter-prose-draft\references\public-derived-anti-ai-prevention.md`
+
+若正式方法版本高于映射版本，则同步状态为 `stale`，Draft Skill 不得静默继续正文生成。

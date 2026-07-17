@@ -2,10 +2,10 @@
 type: index
 system: system_design
 status: active
-version: "1.1"
+version: "1.2"
 title: 设计流程与方案总索引
 created: 2026-07-14
-updated: 2026-07-16
+updated: 2026-07-17
 tags:
   - index
   - architecture
@@ -135,6 +135,7 @@ flowchart TD
 - [[System_alpha/04_Skill系统/03_正文生成/作者审美决策库/README_作者审美决策库|作者审美决策库运行说明]]：长期迭代、版本和隔离规则。
 - [[System_alpha/04_Skill系统/03_正文生成/表达重构方法论库/LIB-EXPRESSION-P0_表达重构方法论库|P0 表达重构方法论库]]：将审美判断转换为 L2—L4 执行动作。
 - `.codex-tmp/skills/reconstruct-draft-to-public/SKILL.md`：Draft→Public 专用执行 Skill。
+- `.codex-tmp/skills/generate-chapter-prose-draft/references/public-derived-anti-ai-prevention.md`：将 Public 作者确认的去 AI 化方法映射为 Draft 首次生成预防，并以方法版本驱动同步。
 
 配套模板：
 
