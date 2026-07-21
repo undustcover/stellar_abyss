@@ -10,7 +10,6 @@ Use it while drafting or revising prose. Do not copy this whole file into a scen
 - `co-create-scene-performance-contract` owns only local performance differences: this chapter's baseline, key-scene texture, chapter-specific prohibited wording, and special dialogue/narration boundaries.
 - If a rule applies across chapters, keep it here or in a higher author-style reference. Do not force every chapter contract to restate it.
 - If a rule changes plot, reader information, or character motive, route it back to the chapter contract, detail outline, or `control-character-intent`.
-- Public-confirmed anti-AI prevention is mapped through `public-derived-anti-ai-prevention.md`. The formal expression library remains the authority; this file executes its Draft-stage prevention subset.
 
 ## Reusable Anti-AI Controls
 

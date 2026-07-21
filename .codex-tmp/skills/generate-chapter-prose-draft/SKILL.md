@@ -11,7 +11,7 @@ Write or assemble one complete web-novel chapter draft as the final director ski
 
 Keep this skill after `co-create-narrative-expression`, `co-create-scene-performance-contract`, `generate-chapter-execution-pack`, and `control-character-intent`. It writes prose, but it must not redesign the chapter, add new canon, explain hidden mechanics, revise upstream cards, or make P0 character intent decisions by itself. If the user provides only a chapter detail outline, stop and ask for the missing upstream artifacts unless they explicitly ask for a rough draft.
 
-The draft must not depend on separate post-processing skills for de-AI cleanup, style consistency, or dialogue humor. Reusable prose-quality controls live in `references/director-prose-quality-rules.md`; Public-confirmed anti-AI prevention mappings live in `references/public-derived-anti-ai-prevention.md`; chapter-specific expression differences come from the scene performance contract. Execute all three during first-pass prose generation.
+The draft must not depend on separate post-processing skills to become readable. Reusable prose-quality controls live in `references/director-prose-quality-rules.md`; chapter-specific expression differences come from the scene performance contract.
 
 In the `总-分-总` chain, this skill is the final `总`. It directly coordinates all confirmed independent artifacts under the chapter creative control plan. It must not make the chapter execution pack the only input, and it must not paste upstream tables, intent tracks, or analysis labels into the prose body.
 
@@ -52,7 +52,7 @@ Preserve YAML source fields, `## 正文`, and `## 生成备注`. For formal deli
 ## Workflow
 
 1. Read `references/input-contract.md` before drafting.
-2. Read `references/workflow-control.md` and `references/public-derived-anti-ai-prevention.md` before generating, continuing, or assembling prose. Compare every mapped `method ID@version` with the formal expression library. If the mapping is stale, report `SYNC-DRAFT-DEAI-001`; synchronize first when system maintenance is authorized, otherwise stop and ask the author.
+2. Read `references/workflow-control.md` before generating, continuing, or assembling prose.
 3. Confirm the inputs include `章节创作总控规划`, chapter narrative expression contract, chapter detail outline, scene performance contract when available, one lightweight `type: chapter_execution_pack`, and the relevant `type: character_intent_result`.
 4. Confirm whether the current operation is `START_CHAPTER`, `WRITE_FRAGMENT`, `RESUME_FRAGMENT`, `ASSEMBLE_V1`, or `REVISE_FRAGMENT`.
 5. Use the creative control plan as the authority for division of labor, conflict priority, ASK_USER triggers, and token boundaries.
@@ -64,14 +64,14 @@ Preserve YAML source fields, `## 正文`, and `## 生成备注`. For formal deli
 11. Require a `CONTINUE` or `RESUME` action in the `character_intent_result` before writing any key fragment. If a P0 language or behavior intent decision is missing, return control to `control-character-intent` to update the character intent result instead of drafting.
 12. Enforce the source boundary: draft only from the creative control plan, narrative expression contract, detail outline, scene performance contract, execution pack, approved character intent result, chapter runtime state, allowed upstream system inputs, and approved common rule files. Do not read or use external prose drafts, comparison reports, finished sample text, or any non-system source while drafting.
 13. For revision or second-pass drafting, internally classify material as `保留`, `压缩`, `删除`, or `延后` before writing. Do not delete scene pressure, key objects, money/procedure pressure, support-character turns, or the main ending hook while reducing jokes.
-14. Apply `references/prose-style-rules.md`, `references/director-prose-quality-rules.md`, and the current prevention rules in `references/public-derived-anti-ai-prevention.md` while drafting. For each key close-POV scene, build the internal prevention mini-card before prose; do not emit the card in `## 正文`.
+14. Apply `references/prose-style-rules.md` and `references/director-prose-quality-rules.md` while drafting.
 15. Draft by scene grade:
    - A scenes: write full pressure, action, misread, character reaction, and turn;
    - B scenes: carry state and transition quickly;
    - C scenes: release information through conflict, object, procedure, or necessity, then exit.
 16. Run an integrated scene-director pass using `references/director-prose-quality-rules.md`: remove over-explanation, complete-design narration, camera-only POV in key scenes, interchangeable associations, clean Q&A, isolated jokes, over-polished metaphors, prose that only expands the outline, over-winning character quips, blunt/low-grade misread wording, summary humor that was merely replaced by prettier narration, and any scene that grows beyond its grade without adding pressure.
 17. If a fragment or scene fails, mark it for `局部替换建议` instead of rewriting the whole chapter. Do not expand every scene merely because one core scene is weak.
-18. In `生成备注`, explicitly record whether only system sources were used, whether intent-control input was present, whether any non-system material pollution risk exists, the Public-derived anti-AI prevention mapping version and sync status, and whether there are risks in complete-design narration, POV participation, character-swap associations, character line win-rate, misread scale, main-hook focus, compressed pressure scenes, support-character emotional arc, word-budget drift, or scene-level reader experience.
+18. In `生成备注`, explicitly record whether only system sources were used, whether intent-control input was present, whether any non-system material pollution risk exists, and whether there are risks in complete-design narration, POV participation, character-swap associations, character line win-rate, misread scale, main-hook focus, compressed pressure scenes, support-character emotional arc, word-budget drift, or scene-level reader experience.
 19. In `生成备注`, explicitly record whether the final draft coordinated all six artifacts: creative control plan, chapter contract, detail outline, scene performance contract, execution pack, and character intent result.
 20. Output with `System_alpha/00_总控台/02_模板库/TPL-CHAPTER-PROSE-DRAFT_正文草稿交付版模板.md` as the exact product shape. Use `references/draft-template.md` only as the local mirror if the formal template is not directly opened in the current context.
 21. Run `references/quality-check.md` before returning the draft.
@@ -93,7 +93,6 @@ Do:
 - Preserve the chapter's single main ending hook; lighter comic afterbeats must not steal focus from it.
 - Keep within the execution pack's scene-grade word budget; spend words on A scenes, compress B/C scenes.
 - Execute reusable style consistency, de-AI feel, and dialogue humor from the director prose-quality rules, then apply the scene performance contract only for chapter-specific differences.
-- Execute the current Public-derived anti-AI prevention mapping during first-pass generation; use confirmed character experience and current scene material for POV reactions and associations.
 - Directly consult the original upstream artifacts when the execution pack only provides a short dispatch label.
 - Suggest local replacement only for failed scenes.
 - Mark unresolved input problems in `生成备注` rather than silently fixing canon.
@@ -119,7 +118,6 @@ Do not:
 - Write process labels, outline tables, or explanatory scaffolding inside the prose body.
 - Update character, event, or setting cards.
 - Depend on deleted post-processing skills (`revise-draft-de-ai`, `revise-draft-style-calibration`, `revise-draft-dialogue-humor`) to make the prose readable later.
-- Continue Draft prose generation when a mapped Public anti-AI method version is newer than the Draft prevention mapping; report `SYNC-DRAFT-DEAI-001` and synchronize or ask the author.
 - Rewrite the whole chapter when only one scene fails; diagnose and replace locally.
 
 ## Output Rule

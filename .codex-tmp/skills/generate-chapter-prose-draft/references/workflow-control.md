@@ -4,14 +4,6 @@ This file defines the prose generation control system.
 
 ## Anti-AI Mapping Preflight
 
-Before any operation, read `public-derived-anti-ai-prevention.md` and compare its mapped `method ID@version` with the formal expression method library.
-
-- `current`: continue with Draft prevention rules;
-- `stale`: report `SYNC-DRAFT-DEAI-001` and synchronize before prose when maintenance is authorized;
-- `stale` without maintenance authority: stop and ask the author; never continue silently.
-
-Only abstract rules may cross from Public to Draft. Do not read or reuse Public finished prose, chapter bridges, fixed metaphors, dialogue, or paragraph order.
-
 ## Operations
 
 Use exactly one operation at a time.
@@ -95,4 +87,3 @@ If failure is caused by unclear language or behavior intent, return to `control-
 - Do not put intent tracks, tables, or process labels inside `## 正文`.
 - Do not restart a chapter when only one fragment is blocked.
 - Preserve whole-chapter flow during final assembly.
-- Do not generate or assemble prose while the Public-derived anti-AI prevention mapping is stale.
