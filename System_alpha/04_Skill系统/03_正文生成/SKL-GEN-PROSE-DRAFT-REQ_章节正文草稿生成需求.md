@@ -1,11 +1,11 @@
 ---
 type: skill_requirement
 system: prose_generation
-status: active
-title: 章节正文草稿生成需求（正式版）
+status: draft
+title: 章节正文草稿生成需求（历史设计基线，待重定）
 skill: generate-chapter-prose-draft
 created: 2026-06-12
-updated: 2026-06-18
+updated: 2026-07-22
 tags:
   - prose-generation
   - draft-generation
@@ -15,9 +15,12 @@ tags:
 
 # 章节正文草稿生成需求
 
+> [!warning] 2026-07-22 状态校准
+> 本文件是现有 Draft 生成 Skill 的历史设计基线，不是正式 Skill 需求。当前 `.codex-tmp/skills/generate-chapter-prose-draft/` 仍处于设计和测试阶段，不迁移、不安装、不晋升。下一阶段以 `SKL-GEN-DRAFT-SOURCE-REDIRECT_源头Draft问题重定需求.md` 为问题重定入口；本文件中的规则须重新证明必要性，不能整份默认继承。
+
 ## 一、定位
 
-`generate-chapter-prose-draft` 是正文生成链路中的正式正文草稿生成 Skill。
+`generate-chapter-prose-draft` 是正文生成链路中的测试版正文草稿生成 Skill，目前尚未正式化。
 
 它不再依赖独立的去 AI 化、文风校准、对白幽默化后处理 skill。它的目标是：
 
@@ -58,13 +61,13 @@ tags:
 当前测试 skill 本体放置在：
 
 ```text
-D:\career\2026\stellar abyss\.codex-tmp\skills
+D:\Career\stellar abyss\.codex-tmp\skills
 ```
 
 测试产物放置在：
 
 ```text
-D:\career\2026\stellar abyss\.codex-tmp\skill-tests
+D:\Career\stellar abyss\.codex-tmp\skill-tests
 ```
 
 测试 skill 本体目录分工：
